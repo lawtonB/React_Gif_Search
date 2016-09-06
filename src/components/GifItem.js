@@ -4,7 +4,7 @@ const GifItem = ({ gif, onGifSelect }) => {
   return (
     <div
     className='gif-item'
-    onClick={() => onGifSelect(gif)
+    onClick={() => onGifSelect(gif) 
     }>
       <img src={gif.images.downsized.url} />
     </div>
